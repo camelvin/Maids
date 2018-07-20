@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F0960959210181D500D3B05A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0960958210181D500D3B05A /* main.m */; };
+		F0960961210181EF00D3B05A /* Maid.m in Sources */ = {isa = PBXBuildFile; fileRef = F0960960210181EF00D3B05A /* Maid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F0960955210181D500D3B05A /* Maids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maids; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0960958210181D500D3B05A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F096095F210181EF00D3B05A /* Maid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maid.h; sourceTree = "<group>"; };
+		F0960960210181EF00D3B05A /* Maid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F0960958210181D500D3B05A /* main.m */,
+				F096095F210181EF00D3B05A /* Maid.h */,
+				F0960960210181EF00D3B05A /* Maid.m */,
 			);
 			path = Maids;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0960961210181EF00D3B05A /* Maid.m in Sources */,
 				F0960959210181D500D3B05A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
